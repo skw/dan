@@ -1,0 +1,21 @@
+{
+  "name": "dan",
+  "version": "0.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "browserify -r csvtojson -r lodash > public/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csvtojson": "^0.3.7",
+    "lodash": "*"
+  },
+  "dependencies": {
+    "csvtojson": "~0.3.7",
+    "lodash": "*"
+  },
+  "description": ""
+}

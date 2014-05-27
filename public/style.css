@@ -1,0 +1,30 @@
+body {
+  font-size: 10px;
+}
+
+main, aside {
+  display: inline-block;
+}
+
+main {
+  margin-left: 15%;
+  width: 50%;
+}
+aside {
+  width: 20%;
+  position: fixed;
+  text-align: right;
+  margin-right: 15%;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 2px;
+}
+
+thead {
+  border-bottom: 2px solid #CCC;
+}
