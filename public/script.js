@@ -26,11 +26,10 @@ var parseCSV = function(data) {
 var doShitWithData = function(data) {
   var dataEl  = $('#data tbody');
   // lodash mustache template delims
-  _.templateSettings.interpolate = /{([\s\S]+?)}/g
+  _.templateSettings.interpolate = /{([\s\S]+?)}/g;
   _.forEach(data, function(row) {
     var template = _.template('<tr><td>{name}</td><td>{category}</td><td>{weight}</td></tr>');
     var output = template(row);
     dataEl.append(output);
-    console.log(output);
   });
 };
